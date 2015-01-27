@@ -11,26 +11,11 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Project settings
     pkg: grunt.file.readJSON('package.json'),
-
-    config: {
-      dist: 'dist',
-      client: 'public'
-    },
-
     app: {
       public: 'public',
       server: 'server',
       dist: 'dist'
     },
-
-
-    dir: {
-      public: 'public',
-      server: 'server',
-      dist: 'dist'
-    },
-
-
 
     express: {
       options: {
